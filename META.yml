@@ -3,6 +3,7 @@ abstract: 'a simple reddit-related helper plugin for Bot::BasicBot::Pluggable'
 author:
   - 'James Green <jkg@cpan.org>'
 build_requires:
+  Test::Bot::BasicBot::Pluggable: '0'
   Test::More: '0'
 configure_requires:
   ExtUtils::MakeMaker: '0'
@@ -20,4 +21,4 @@ no_index:
 requires:
   URI::Title: '0'
   perl: '5.006'
-version: '0.01'
+version: '0.02'
